@@ -1,0 +1,90 @@
+body {
+  font-family: arial, sans-serif;
+}
+
+h1 {
+  color: black;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  color: black;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+}
+
+li:first-letter {
+  text-transform: capitalize;
+}
+
+.btn {
+  color: #dd88aa;
+  font-size: 25px;
+}
+
+.container {
+  border: 1px solid #aaaaaa;
+  padding: 15px;
+  margin: 20px auto;
+  background: url("https://i.pinimg.com/736x/fa/9b/40/fa9b4044348846f50fa1e10a5d80a8b5.jpg");
+  border-radius: 10px;
+  max-width: 600px;
+  max-height: 800px;
+
+  color: white;
+}
+.weather-app-web {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.weather-app {
+  padding: 20px;
+  border: 4px;
+  border-radius: 5px;
+}
+
+.over {
+  margin-bottom: 20px;
+}
+
+.weather img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+
+.weather strong {
+  color: black;
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.weather.units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+.weather .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.weather.active:hover {
+  text-decoration: none;
+}
