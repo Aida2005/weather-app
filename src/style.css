@@ -88,3 +88,22 @@ li:first-letter {
 .weather.active:hover {
   text-decoration: none;
 }
+
+.forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+}
+
+.date {
+  font-size: 16px;
+  opacity: 0.6;
+}
+
+.temperatures {
+  font-size: 13px;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.6;
+}
